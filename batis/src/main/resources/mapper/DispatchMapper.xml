@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.joey.core.mapper.DispatchMapper">
+    <resultMap id="BaseResultMap" type="com.joey.core.entity.Dispatch">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <result column="dispatch_seq" jdbcType="VARCHAR" property="dispatchSeq"/>
+        <result column="order_id" jdbcType="INTEGER" property="orderId"/>
+        <result column="dispatch_context" jdbcType="VARCHAR" property="dispatchContext"/>
+    </resultMap>
+</mapper>
